@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompiledResourceGenerator", "CompiledResourceGenerator\CompiledResourceGenerator.csproj", "{F40C6ACB-19AC-4136-A0DF-3E63E5121ACA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompiledResourceGenerator.Benchmarks", "CompiledResourceGenerator.Benchmarks\CompiledResourceGenerator.Benchmarks.csproj", "{BB01A223-D7BF-4288-9F42-C27993CDEF40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F40C6ACB-19AC-4136-A0DF-3E63E5121ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40C6ACB-19AC-4136-A0DF-3E63E5121ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F40C6ACB-19AC-4136-A0DF-3E63E5121ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB01A223-D7BF-4288-9F42-C27993CDEF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB01A223-D7BF-4288-9F42-C27993CDEF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB01A223-D7BF-4288-9F42-C27993CDEF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB01A223-D7BF-4288-9F42-C27993CDEF40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
