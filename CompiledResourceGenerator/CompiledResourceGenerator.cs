@@ -64,7 +64,8 @@ namespace CompiledResourceGenerator
                     compilationUnit = compilationUnit.AddMembers(@namespace.AddMembers(@class.AddMembers(methodBody, bytesField)));
                 }
 
-                context.AddSource($"{declaredClass.Name}.g.cs", compilationUnit.NormalizeWhitespace().ToFullString());
+                if (compilationUnit.Members.Count != 0)
+                    context.AddSource($"{declaredClass.Name}.g.cs", compilationUnit.NormalizeWhitespace().ToFullString());
             }
         }
 
