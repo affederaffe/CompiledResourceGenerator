@@ -19,7 +19,7 @@ namespace CompiledResourceGenerator.Benchmarks
      [MemoryDiagnoser]
      public class Test
      {
-          [Benchmark]
+          [Benchmark(Baseline = true)]
           public void EmbeddedResourceStreamBenchmark()
           {
                Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("CompiledResourceGenerator.Benchmarks.LoremIpsum.txt")!;
